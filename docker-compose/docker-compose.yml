@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  necesse:
+    image: registry.metalrip.com/necesse
+    restart: unless-stopped
+    # user: 1004:1004
+    volumes:
+      - ./config:/home/steam/.config/Necesse
+    ports:
+      - 14159:14159/udp
+    environment:
+      WORLD_NAME: "MyWorld"
