@@ -1,0 +1,6 @@
+@ShutdownOnFailedCommand 1 //Set to 0 if updating more than one server.
+@NoPromptForPassword 1
+force_install_dir /home/steam/necesse-dedicated/
+login anonymous  // Necesse dedicated server is available as anonymous. Thank you Fair!
+app_update 1169370 validate
+quit

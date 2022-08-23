@@ -1,0 +1,1 @@
+0 6 * * *     steam    /home/steam/steamcmd.sh +runscript /home/steam/necesse_update
